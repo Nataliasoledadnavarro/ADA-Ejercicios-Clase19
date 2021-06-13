@@ -1,0 +1,127 @@
+body {
+  margin: 0%;
+  width: 100%;
+}
+
+main {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.gris {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(194, 191, 191);
+  margin: 10px;
+}
+
+.rojo {
+  width: 60px;
+  height: 60px;
+  background-color: red;
+}
+
+.verde {
+  width: 30px;
+  height: 30px;
+  background-color: green;
+}
+
+.uno .verde {
+  position: relative;
+  top: 10px;
+  left: 70px;
+}
+
+.dos .verde {
+  position: relative;
+  bottom: 60px;
+  left: 70px;
+}
+.dos .rojo {
+  position: relative;
+  top: 40px;
+}
+
+.tres .verde {
+  position: relative;
+  bottom: 60px;
+  left: 70px;
+}
+
+.tres .rojo {
+  position: relative;
+  top: 40px;
+  left: 40px;
+}
+
+.cuatro .rojo {
+  position: relative;
+  top: 40px;
+}
+
+.cuatro .verde {
+  position: relative;
+  left: 30px;
+  top: 10px;
+}
+
+.cinco .rojo {
+  position: relative;
+  left: 40px;
+}
+
+.cinco .verde {
+  position: relative;
+  bottom: 30px;
+  left: 40px;
+}
+
+.seis .rojo {
+  position: relative;
+  left: 40px;
+  top: 40px;
+}
+
+.seis .verde {
+  position: relative;
+  bottom: 20px;
+  left: 40px;
+}
+
+.siete .rojo {
+  position: relative;
+  left: 20px;
+}
+
+.siete .verde {
+  position: relative;
+  top: 10px;
+}
+
+.ocho .rojo {
+  position: relative;
+  left: 20px;
+  top: 40px;
+}
+
+.ocho .verde {
+  position: relative;
+  left: 35px;
+  top: 10px;
+}
+
+.nueve .rojo {
+  position: relative;
+  left: 20px;
+  top: 20px;
+}
+
+.nueve .verde {
+  position: relative;
+  bottom: 25px;
+  left: 35px;
+}
