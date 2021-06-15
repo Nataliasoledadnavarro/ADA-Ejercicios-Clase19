@@ -1,0 +1,83 @@
+body {
+  margin: 0%;
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(0, 153, 255);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.izquierda {
+  width: 40%;
+  margin-left: 20px;
+}
+.fa-bars {
+  font-size: 3rem;
+  color: rgb(184, 178, 178);
+}
+
+.derecha {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.derecha .fas {
+  font-size: 2rem;
+  color: white;
+}
+
+.corazon .numero {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding: 3px;
+  background-color: red;
+  color: white;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 590px;
+  left: 1010px;
+  
+}
+
+.campana .numero{width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    padding: 3px;
+    background-color: red;
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 590px;
+    left: 1110px;  
+  }
+
+  .carrito .numero{width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    padding: 3px;
+    background-color: red;
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 590px;
+    left: 1230px;  
+  }
+
+  
